@@ -101,7 +101,7 @@ class AdvancedSkillExtractor:
         validated = validate_skills(
             job_description=job_description,
             extracted_skills=list(normalized),
-            skills_reference_path="src/config/skills_reference_2025.json",
+            skills_reference_path="src/config/skills_reference_2026.json",
         )
 
         if not return_confidence:
@@ -138,7 +138,7 @@ class AdvancedSkillExtractor:
 # Convenience function
 def extract_skills_advanced(
     job_description: str,
-    skills_reference_path: str = "src/config/skills_reference_2025.json",
+    skills_reference_path: str = "src/config/skills_reference_2026.json",
     return_confidence: bool = False,
 ) -> list[str] | list[tuple[str, float]]:
     """Extract skills using advanced 3-layer regex method"""

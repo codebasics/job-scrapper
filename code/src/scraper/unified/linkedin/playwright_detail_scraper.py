@@ -35,7 +35,7 @@ async def scrape_linkedin_details_playwright(
     logger.info(f"📋 Processing Batch: {len(url_models)} jobs")
     logger.info(f"{'='*70}")
     
-    extractor = AdvancedSkillExtractor('src/config/skills_reference_2025.json')
+    extractor = AdvancedSkillExtractor('src/config/skills_reference_2026.json')
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=headless)

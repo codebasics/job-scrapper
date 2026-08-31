@@ -45,7 +45,7 @@ def create_job_detail_model(
         return None
 
     job_id: str = JobUrlModel.generate_job_id("Naukri", job_url)
-    extractor = AdvancedSkillExtractor('src/config/skills_reference_2025.json')
+    extractor = AdvancedSkillExtractor('src/config/skills_reference_2026.json')
     # Extract skills - returns list[str] when return_confidence=False
     extracted = extractor.extract(desc, return_confidence=False)
     # Type narrow: when return_confidence=False, it returns list[str]

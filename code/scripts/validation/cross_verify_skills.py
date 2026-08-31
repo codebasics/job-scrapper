@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Cross-verify all jobs: Compare skills column vs job_description
-using patterns from skills_reference_2025.json
+using patterns from skills_reference_2026.json
 
 Find False Positives (skills in DB but not in description)
 Find False Negatives (skills in description but not extracted)
@@ -52,7 +52,7 @@ def parse_skills_from_db(skills_str):
 
 def main():
     # Load skills patterns from the config file
-    skills_file = "src/config/skills_reference_2025.json"
+    skills_file = "src/config/skills_reference_2026.json"
     print(f"Loading skills patterns from: {skills_file}")
     skill_patterns, total_skills = load_skills_patterns(skills_file)
     print(f"Loaded {total_skills} skills with patterns")

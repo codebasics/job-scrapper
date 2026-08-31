@@ -1,7 +1,7 @@
 #!/bin/bash
 # ============================================================================
 # LAYER 1: Pattern Validation - Quick grep-based pattern matching
-# Reads patterns from skills_reference_2025.json
+# Reads patterns from skills_reference_2026.json
 # Uses Node.js for DB access + pattern matching
 # ============================================================================
 
@@ -10,11 +10,11 @@ set -e
 # Use relative paths (run from project root)
 DB_PATH="${1:-data/jobs.db}"
 SAMPLE_SIZE="${2:-500}"
-SKILLS_REF="src/config/skills_reference_2025.json"
+SKILLS_REF="src/config/skills_reference_2026.json"
 
 echo "╔══════════════════════════════════════════════════════════════════════╗"
 echo "║           LAYER 1: PATTERN VALIDATION                                ║"
-echo "║           Using patterns from skills_reference_2025.json             ║"
+echo "║           Using patterns from skills_reference_2026.json             ║"
 echo "╚══════════════════════════════════════════════════════════════════════╝"
 echo ""
 echo "Database: $DB_PATH"

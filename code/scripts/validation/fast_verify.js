@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Fast cross-verification of skills using Node.js
- * Compares skills column vs job_description using patterns from skills_reference_2025.json
+ * Compares skills column vs job_description using patterns from skills_reference_2026.json
  */
 
 const fs = require('fs');
@@ -9,7 +9,7 @@ const path = require('path');
 const Database = require('better-sqlite3');
 
 // Load skills reference
-const skillsPath = path.join(__dirname, 'src/config/skills_reference_2025.json');
+const skillsPath = path.join(__dirname, 'src/config/skills_reference_2026.json');
 const skillsData = JSON.parse(fs.readFileSync(skillsPath, 'utf8'));
 
 console.log(`Loaded ${skillsData.total_skills} skills with patterns`);

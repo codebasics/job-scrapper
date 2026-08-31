@@ -50,8 +50,8 @@ Job_Scrapper/
 │   │
 │   ├── src/
 │   │   ├── config/               # Configuration files
-│   │   │   ├── skills_reference_2025.json   # 977 skills with regex patterns
-│   │   │   ├── roles_reference_2025.json    # 150 role categories
+│   │   │   ├── skills_reference_2026.json   # 977 skills with regex patterns
+│   │   │   ├── roles_reference_2026.json    # 150 role categories
 │   │   │   ├── countries.py      # Country/location mappings
 │   │   │   └── naukri_locations.py
 │   │   │
@@ -290,7 +290,7 @@ This saves cookies to `linkedin_cookies.json` for subsequent sessions.
 
 ## Configuration
 
-### Skills Reference (`code/src/config/skills_reference_2025.json`)
+### Skills Reference (`code/src/config/skills_reference_2026.json`)
 
 ```json
 {

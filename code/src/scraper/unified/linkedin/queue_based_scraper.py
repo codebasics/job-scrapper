@@ -95,9 +95,9 @@ class QueueBasedScraper:
 
         # Validators
         self.skill_extractor = AdvancedSkillExtractor(
-            "src/config/skills_reference_2025.json"
+            "src/config/skills_reference_2026.json"
         )
-        self.skills_validator = SkillValidator("src/config/skills_reference_2025.json")
+        self.skills_validator = SkillValidator("src/config/skills_reference_2026.json")
         self.job_validator = JobValidator(min_description_length=100)
         self.db_ops = JobStorageOperations()
 

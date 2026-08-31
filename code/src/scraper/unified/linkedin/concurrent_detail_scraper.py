@@ -435,8 +435,8 @@ async def scrape_job_details_concurrent(
 
     db_ops = JobStorageOperations()
     state = SharedState()
-    skill_extractor = AdvancedSkillExtractor("src/config/skills_reference_2025.json")
-    skills_validator = SkillValidator("src/config/skills_reference_2025.json")
+    skill_extractor = AdvancedSkillExtractor("src/config/skills_reference_2026.json")
+    skills_validator = SkillValidator("src/config/skills_reference_2026.json")
 
     # Proxy config (optional - not required for rate limit protection)
     proxy_url = os.getenv("PROXY_URL")

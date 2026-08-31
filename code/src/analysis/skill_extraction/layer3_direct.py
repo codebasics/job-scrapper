@@ -1,5 +1,5 @@
 """
-Layer 3: Direct pattern matching ONLY from skills_reference_2025.json
+Layer 3: Direct pattern matching ONLY from skills_reference_2026.json
 All patterns centralized in single source of truth
 """
 from __future__ import annotations
@@ -29,12 +29,12 @@ def layer3_extract_direct(
     skills_reference: list[SkillReferenceData]
 ) -> list[Layer3SkillMatch]:
     """
-    Layer 3: Extract using ONLY patterns from skills_reference_2025.json
+    Layer 3: Extract using ONLY patterns from skills_reference_2026.json
     Returns canonical skill names, not pattern text
     """
     skills: list[Layer3SkillMatch] = []
 
-    # Build pattern -> canonical_name mapping ONLY from skills_reference_2025.json
+    # Build pattern -> canonical_name mapping ONLY from skills_reference_2026.json
     pattern_to_skill: dict[str, str] = {}
 
     # All patterns come from skills_reference parameter (loaded from JSON)

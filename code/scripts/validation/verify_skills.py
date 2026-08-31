@@ -9,7 +9,7 @@ from collections import defaultdict
 
 def main():
     # Load the updated skills reference
-    with open("skills_reference_2025.json", "r") as f:
+    with open("skills_reference_2026.json", "r") as f:
         skills_data = json.load(f)
 
     # Build skill patterns - compile once

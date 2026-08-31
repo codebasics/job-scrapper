@@ -8,7 +8,7 @@ from typing import Dict, List
 class RoleNormalizer:
     """Normalizes job roles using pattern matching from reference file"""
     
-    def __init__(self, reference_file: str = "src/config/roles_reference_2025.json"):
+    def __init__(self, reference_file: str = "src/config/roles_reference_2026.json"):
         self.reference_file = reference_file
         self.role_patterns: Dict[str, List[re.Pattern[str]]] = {}
         self._load_patterns()

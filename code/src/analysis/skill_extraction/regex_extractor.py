@@ -2,7 +2,7 @@
 """
 Lightweight Regex-Based Skill Extractor - EMD Compliant
 NO heavy packages (SkillNER, spaCy) - Pure regex + JSON
-Uses skills_reference_2025.json with compiled patterns for speed
+Uses skills_reference_2026.json with compiled patterns for speed
 
 Author: Job Scrapper Team
 Created: 2025-10-11

@@ -2,7 +2,7 @@
 # ============================================================================
 # LAYER 3: False Negative Detection
 # Finds skills mentioned in JD (by pattern) but NOT extracted
-# Reads patterns from skills_reference_2025.json
+# Reads patterns from skills_reference_2026.json
 # ============================================================================
 
 set -e
@@ -10,11 +10,11 @@ set -e
 # Use relative paths (run from project root)
 DB_PATH="${1:-data/jobs.db}"
 SAMPLE_SIZE="${2:-500}"
-SKILLS_REF="src/config/skills_reference_2025.json"
+SKILLS_REF="src/config/skills_reference_2026.json"
 
 echo "╔══════════════════════════════════════════════════════════════════════╗"
 echo "║           LAYER 3: FALSE NEGATIVE DETECTION                          ║"
-echo "║           Using patterns from skills_reference_2025.json             ║"
+echo "║           Using patterns from skills_reference_2026.json             ║"
 echo "╚══════════════════════════════════════════════════════════════════════╝"
 echo ""
 echo "Database: $DB_PATH"

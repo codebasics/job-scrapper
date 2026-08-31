@@ -103,7 +103,7 @@ async def rolling_window_n_plus_5(
     
     # Initialize extractor with error handling
     try:
-        extractor = AdvancedSkillExtractor('src/config/skills_reference_2025.json')
+        extractor = AdvancedSkillExtractor('src/config/skills_reference_2026.json')
     except Exception as e:
         logger.error(f"❌ Failed to load skills reference: {e}")
         return []

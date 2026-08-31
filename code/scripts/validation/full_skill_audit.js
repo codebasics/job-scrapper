@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Full Skill Audit - Comprehensive FP/FN Analysis
- * Checks ALL skills from skills_reference_2025.json against scraped jobs
+ * Checks ALL skills from skills_reference_2026.json against scraped jobs
  */
 
 const Database = require('better-sqlite3');
@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DB_PATH = 'data/jobs.db';
-const SKILLS_REF = 'src/config/skills_reference_2025.json';
+const SKILLS_REF = 'src/config/skills_reference_2026.json';
 
 console.log('='.repeat(70));
 console.log('COMPREHENSIVE SKILL AUDIT - FP/FN ANALYSIS');

@@ -275,14 +275,14 @@ class RoundRobinScraper:
 
         # Validators
         self.skill_extractor = AdvancedSkillExtractor(
-            "src/config/skills_reference_2025.json"
+            "src/config/skills_reference_2026.json"
         )
-        self.skills_validator = SkillValidator("src/config/skills_reference_2025.json")
+        self.skills_validator = SkillValidator("src/config/skills_reference_2026.json")
         self.job_validator = JobValidator(min_description_length=100)
         self.db_ops = JobStorageOperations()
 
         # 7-Layer Single Job Validator - validates and fixes skills after each job
-        self.single_job_validator = SingleJobValidator("src/config/skills_reference_2025.json")
+        self.single_job_validator = SingleJobValidator("src/config/skills_reference_2026.json")
 
     async def _wait_for_rate_limit(self) -> float:
         """Check if we're in a rate limit backoff period.

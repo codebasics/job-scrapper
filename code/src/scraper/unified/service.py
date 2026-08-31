@@ -67,7 +67,7 @@ async def scrape_jobs(
         raise ValueError(f"Unsupported platform: {platform}. Supported: naukri only (LinkedIn via JobSpy)")
 
     # Initialize skill extractor once for batch processing (performance optimization)
-    extractor = AdvancedSkillExtractor('src/config/skills_reference_2025.json')
+    extractor = AdvancedSkillExtractor('src/config/skills_reference_2026.json')
 
     # Extract skills for each job using advanced 3-layer extraction
     for job in jobs:

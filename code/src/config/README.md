@@ -4,7 +4,7 @@
 Stores reference data and settings used across the entire system.
 
 ## What's Inside
-- **skills_reference_2025.json** - The master list of 749 validated technical skills
+- **skills_reference_2026.json** - The master list of 749 validated technical skills
 - **countries.py** - LinkedIn country codes for international job searches
 - **naukri_locations.py** - Indian city locations for Naukri searches
 

@@ -3,7 +3,7 @@
 # Validates extracted skills against job descriptions
 
 DB_PATH="${1:-data/jobs.db}"
-SKILLS_JSON="src/config/skills_reference_2025.json"
+SKILLS_JSON="src/config/skills_reference_2026.json"
 
 echo "=== FAST SKILL VALIDATION LAYER ==="
 echo "Database: $DB_PATH"

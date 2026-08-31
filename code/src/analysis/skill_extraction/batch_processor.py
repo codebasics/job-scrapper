@@ -42,7 +42,7 @@ def extract_skills_batch(job_descriptions: list[str]) -> list[list[str]]:
         return []
 
     # Initialize extractor once for entire batch
-    extractor = AdvancedSkillExtractor('src/config/skills_reference_2025.json')
+    extractor = AdvancedSkillExtractor('src/config/skills_reference_2026.json')
 
     # Process all jobs with same extractor instance
     results: list[list[str]] = [

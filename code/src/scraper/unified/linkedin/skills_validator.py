@@ -1,4 +1,4 @@
-# Skills Validation Against skills_reference_2025.json
+# Skills Validation Against skills_reference_2026.json
 # Filters false positives, validates extracted skills
 import json
 import logging
@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 class SkillsValidator:
     """Validates extracted skills against reference list"""
 
-    def __init__(self, reference_file: str = "src/config/skills_reference_2025.json"):
+    def __init__(self, reference_file: str = "src/config/skills_reference_2026.json"):
         """Load skills reference from JSON file"""
         self.valid_skills: set[str] = set()
         self.reference_file = Path(reference_file)

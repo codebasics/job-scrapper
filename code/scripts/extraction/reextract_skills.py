@@ -5,7 +5,7 @@ from src.analysis.skill_extraction.extractor import AdvancedSkillExtractor
 
 def main():
     print("Initializing skill extractor...")
-    extractor = AdvancedSkillExtractor('src/config/skills_reference_2025.json')
+    extractor = AdvancedSkillExtractor('src/config/skills_reference_2026.json')
 
     conn = sqlite3.connect('data/jobs.db')
     cursor = conn.cursor()

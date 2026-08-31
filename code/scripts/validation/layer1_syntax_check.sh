@@ -1,13 +1,13 @@
 #!/bin/bash
 # ============================================================================
 # LAYER 1: Pattern Syntax Validation
-# Validates all regex patterns in skills_reference_2025.json
+# Validates all regex patterns in skills_reference_2026.json
 # Catches broken patterns before extraction runs
 # ============================================================================
 
 set -e
 
-SKILLS_REF="${1:-src/config/skills_reference_2025.json}"
+SKILLS_REF="${1:-src/config/skills_reference_2026.json}"
 
 echo "╔══════════════════════════════════════════════════════════════════════╗"
 echo "║           LAYER 1: PATTERN SYNTAX VALIDATION                         ║"

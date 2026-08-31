@@ -37,7 +37,7 @@ class ValidationResult:
 class SingleJobValidator:
     """Validates and fixes a single job's skills in real-time"""
 
-    def __init__(self, skills_ref_path: str = "src/config/skills_reference_2025.json"):
+    def __init__(self, skills_ref_path: str = "src/config/skills_reference_2026.json"):
         self.skills_ref_path = Path(skills_ref_path)
         self.skill_patterns: dict[str, list[re.Pattern[str]]] = {}
         self.skill_names: dict[str, str] = {}  # lowercase -> canonical name

@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 DEGREE_CONTEXT_WINDOW: Final[int] = 80
 DEFAULT_BATCH_SIZE: Final[int] = 100
 DEFAULT_DB_PATH: Final[str] = 'data/jobs.db'
-DEFAULT_SKILLS_REF_PATH: Final[str] = 'src/config/skills_reference_2025.json'
+DEFAULT_SKILLS_REF_PATH: Final[str] = 'src/config/skills_reference_2026.json'
 
 # Type definitions
 class ReextractionStats(TypedDict):

@@ -8,7 +8,7 @@ import re
 from typing import TypedDict
 
 # REMOVED: All hardcoded MULTI_WORD_SKILLS to prevent hallucinations
-# ALL patterns must come from skills_reference_2025.json for single source of truth
+# ALL patterns must come from skills_reference_2026.json for single source of truth
 # This eliminates duplicate/conflicting pattern management across multiple files
 
 
@@ -33,8 +33,8 @@ SKILL_CONTEXT_PATTERNS: dict[str, str] = {
 
 
 def layer1_extract_phrases(text: str) -> tuple[list[SkillMatch], list[tuple[int, int]]]:
-    """Layer 1: DEPRECATED - Now handled by layer3_direct.py using skills_reference_2025.json"""
-    # Return empty - all pattern matching now centralized in skills_reference_2025.json
+    """Layer 1: DEPRECATED - Now handled by layer3_direct.py using skills_reference_2026.json"""
+    # Return empty - all pattern matching now centralized in skills_reference_2026.json
     return [], []
 
 
