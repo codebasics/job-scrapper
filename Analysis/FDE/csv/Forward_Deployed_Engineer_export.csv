@@ -1,0 +1,221 @@
+Skill,Count,Percentage
+Customer-Facing Engineering,48,64.0%
+Python,43,57.3%
+Communication,38,50.7%
+RAG,35,46.7%
+AI Agents,24,32.0%
+Innovation,22,29.3%
+Azure,22,29.3%
+Agentic AI,21,28.0%
+Metrics,19,25.3%
+Comfort with Ambiguity,19,25.3%
+TypeScript,18,24.0%
+Customer Success,18,24.0%
+Debugging,18,24.0%
+Troubleshooting,17,22.7%
+API,17,22.7%
+Consulting,17,22.7%
+Problem Solving,16,21.3%
+Collaboration,16,21.3%
+Prompt Engineering,16,21.3%
+CI/CD,16,21.3%
+LangChain,16,21.3%
+JavaScript,15,20.0%
+Solution Architecture,14,18.7%
+Proof of Concept Development,14,18.7%
+Openai,14,18.7%
+Documentation,14,18.7%
+Cloud Platforms,14,18.7%
+Data Pipelines,14,18.7%
+LangGraph,14,18.7%
+Cross-Functional Collaboration,13,17.3%
+Influence,13,17.3%
+Generative AI,13,17.3%
+Leadership,13,17.3%
+SQL,12,16.0%
+Data Engineering,11,14.7%
+Sales,11,14.7%
+Kubernetes,11,14.7%
+Systems Integration,11,14.7%
+Vector Databases,10,13.3%
+Full-Stack Development,9,12.0%
+Workflow Automation,9,12.0%
+Databricks,9,12.0%
+Java,9,12.0%
+Docker,8,10.7%
+Dashboards,8,10.7%
+Tool Calling,8,10.7%
+Salesforce,7,9.3%
+CrewAI,7,9.3%
+Stakeholder Management,7,9.3%
+Microservices,7,9.3%
+Agent Frameworks,7,9.3%
+ERP,7,9.3%
+Model Context Protocol,7,9.3%
+React,6,8.0%
+Data Integration,6,8.0%
+ETL,6,8.0%
+Marketing,6,8.0%
+Fine-tuning,6,8.0%
+Decision Making,6,8.0%
+SAP,6,8.0%
+Anthropic,6,8.0%
+Gemini,6,8.0%
+Claude,6,8.0%
+Platform Engineering,6,8.0%
+Multi-Agent Systems,6,8.0%
+LlamaIndex,6,8.0%
+Accountability,6,8.0%
+Data Ingestion,6,8.0%
+Git,6,8.0%
+Escalation Management,6,8.0%
+Adaptability,5,6.7%
+Snowflake,5,6.7%
+Prototyping,5,6.7%
+Organization,5,6.7%
+ServiceNow,5,6.7%
+Data Modeling,5,6.7%
+Empathy,5,6.7%
+Go,5,6.7%
+Reporting,5,6.7%
+Excel,5,6.7%
+JIRA,5,6.7%
+Next.Js,4,5.3%
+Flexibility,4,5.3%
+Ambition,4,5.3%
+Professional Services Delivery,4,5.3%
+Creativity,4,5.3%
+Function Calling,4,5.3%
+MLOps,4,5.3%
+S3,4,5.3%
+Embeddings,4,5.3%
+IAM,4,5.3%
+AutoGen,4,5.3%
+WebRTC,4,5.3%
+GitHub,4,5.3%
+Cloud Computing,3,4.0%
+DevOps,3,4.0%
+Workday,3,4.0%
+Proactive,3,4.0%
+GraphQL,3,4.0%
+Vertex AI,3,4.0%
+Use Case,3,4.0%
+Data Quality,3,4.0%
+Business Requirements Gathering,3,4.0%
+Azure Openai,3,4.0%
+Code Review,3,4.0%
+Copilot,3,4.0%
+WebSockets,3,4.0%
+SharePoint,3,4.0%
+Cybersecurity,3,4.0%
+Integrity,3,4.0%
+Regression,3,4.0%
+Cursor,3,4.0%
+FastAPI,3,4.0%
+Semantic Kernel,3,4.0%
+Slack,3,4.0%
+Data Governance,2,2.7%
+CMS,2,2.7%
+BigQuery,2,2.7%
+Model Deployment,2,2.7%
+Deep Learning,2,2.7%
+Mentorship,2,2.7%
+Mistral AI,2,2.7%
+Oracle,2,2.7%
+Semantic Search,2,2.7%
+Systems Thinking,2,2.7%
+Customer Service,2,2.7%
+Chatbot,2,2.7%
+DevSecOps,2,2.7%
+Angular,2,2.7%
+Grpc,2,2.7%
+Swagger,2,2.7%
+ELT,2,2.7%
+Cloud Security,2,2.7%
+Teamwork,2,2.7%
+REST API,2,2.7%
+NoSQL,2,2.7%
+Unity,2,2.7%
+Apache Spark,2,2.7%
+Diversity and Inclusion,2,2.7%
+Bootstrap,2,2.7%
+LinkedIn,2,2.7%
+Scala,2,2.7%
+Big Data,2,2.7%
+Github Copilot,2,2.7%
+SDK,2,2.7%
+Mentoring,2,2.7%
+Delegation,2,2.7%
+A/B Testing,1,1.3%
+Causal Inference,1,1.3%
+Fresh,1,1.3%
+PyTorch,1,1.3%
+NetSuite,1,1.3%
+Zapier,1,1.3%
+Node.Js,1,1.3%
+Data Analysis,1,1.3%
+AWS Lambda,1,1.3%
+Serverless,1,1.3%
+Mlflow,1,1.3%
+Kubeflow,1,1.3%
+Model Monitoring,1,1.3%
+Incident Response,1,1.3%
+On-Site Deployment,1,1.3%
+Terraform,1,1.3%
+SIEM,1,1.3%
+Data Lake,1,1.3%
+Hugging Face,1,1.3%
+Presentation Skills,1,1.3%
+Classification,1,1.3%
+Data Lakes,1,1.3%
+Product Management,1,1.3%
+Data Lakehouse,1,1.3%
+Model Registry,1,1.3%
+LangSmith,1,1.3%
+Forecasting,1,1.3%
+Customer Analytics,1,1.3%
+SEO,1,1.3%
+MongoDB,1,1.3%
+Milvus,1,1.3%
+Pinecone,1,1.3%
+Llama,1,1.3%
+Message Queues,1,1.3%
+Networking,1,1.3%
+Product Analytics,1,1.3%
+Acceptance Criteria,1,1.3%
+Delta Lake,1,1.3%
+Dbt,1,1.3%
+Requirements Gathering,1,1.3%
+n8n,1,1.3%
+Sketch,1,1.3%
+Chatgpt,1,1.3%
+Vercel,1,1.3%
+GDPR,1,1.3%
+Hibernate,1,1.3%
+Junit,1,1.3%
+PostgreSQL,1,1.3%
+Spring Boot,1,1.3%
+Jpa,1,1.3%
+Cucumber,1,1.3%
+Vault,1,1.3%
+Pydantic,1,1.3%
+SOC 2,1,1.3%
+Vllm,1,1.3%
+Ray,1,1.3%
+Growth Mindset,1,1.3%
+DigitalOcean,1,1.3%
+Tensorrt,1,1.3%
+Quantization,1,1.3%
+GPU,1,1.3%
+Prometheus,1,1.3%
+Datadog,1,1.3%
+OpenTelemetry,1,1.3%
+Grafana,1,1.3%
+Rust,1,1.3%
+Model Evaluation,1,1.3%
+KPI,1,1.3%
+Resilience,1,1.3%
+Continuous Feedback,1,1.3%
+Coaching,1,1.3%
+Project Management,1,1.3%
+Critical Thinking,1,1.3%
