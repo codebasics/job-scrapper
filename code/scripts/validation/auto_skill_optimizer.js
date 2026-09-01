@@ -7,7 +7,7 @@
  * - Reads emerging skills from Layer 6 output
  * - Filters non-skills using intelligent classification
  * - Generates proper regex patterns following existing format
- * - Auto-merges into skills_reference_2025.json with backup
+ * - Auto-merges into skills_reference_2026.json with backup
  * - Tracks optimization history
  */
 
@@ -18,7 +18,7 @@ const path = require('path');
 // Configuration
 const CONFIG = {
     DB_PATH: 'data/jobs.db',
-    SKILLS_REF: 'src/config/skills_reference_2025.json',
+    SKILLS_REF: 'src/config/skills_reference_2026.json',
     CANDIDATES_FILE: 'data/emerging_skills_candidates.json',
     HISTORY_FILE: 'data/skill_optimization_history.json',
     BACKUP_DIR: 'data/backups',

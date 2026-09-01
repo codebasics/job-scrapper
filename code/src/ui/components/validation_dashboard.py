@@ -254,7 +254,7 @@ def render_validation_dashboard(db_path: str) -> None:
                 c3.metric("FN Added", f"{fn_added:,}")
 
         # Run validation
-        skills_ref = "src/config/skills_reference_2025.json"
+        skills_ref = "src/config/skills_reference_2026.json"
         results = run_batch_validation(
             db_path, skills_ref, update_progress, batch_size=500
         )

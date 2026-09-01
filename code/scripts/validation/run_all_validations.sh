@@ -1,7 +1,7 @@
 #!/bin/bash
 # ============================================================================
 # 8-LAYER SKILL VALIDATION ORCHESTRATOR
-# Runs all validation layers using patterns from skills_reference_2025.json
+# Runs all validation layers using patterns from skills_reference_2026.json
 # Must be run from project root directory
 #
 # Layer 8 (Auto-Optimizer) is optional and runs in dry-run mode by default
@@ -13,7 +13,7 @@ set -e
 # Use relative paths (run from project root)
 DB_PATH="${1:-data/jobs.db}"
 SAMPLE_SIZE="${2:-500}"
-SKILLS_REF="src/config/skills_reference_2025.json"
+SKILLS_REF="src/config/skills_reference_2026.json"
 SCRIPT_DIR="scripts/validation"
 REPORT_DIR="data/validation_reports"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)

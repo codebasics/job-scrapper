@@ -7,7 +7,7 @@ const Database = require('better-sqlite3');
 const fs = require('fs');
 
 const DB_PATH = 'data/jobs.db';
-const SKILLS_REF = 'src/config/skills_reference_2025.json';
+const SKILLS_REF = 'src/config/skills_reference_2026.json';
 
 // Load skills reference with patterns
 const skillsData = JSON.parse(fs.readFileSync(SKILLS_REF, 'utf8'));

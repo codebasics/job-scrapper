@@ -62,7 +62,7 @@ async def test_complete_workflow_1000():
     logger.info(f"   Target Jobs: {TARGET_JOBS}")
     logger.info(f"   Window Size: {WINDOW_SIZE}")
     logger.info(f"   Headless: {HEADLESS}")
-    logger.info(f"   Skills Source: skills_reference_2025.json")
+    logger.info(f"   Skills Source: skills_reference_2026.json")
     logger.info(f"   Storage: jobs.db (immediate)")
     
     logger.info("\n" + "="*80)

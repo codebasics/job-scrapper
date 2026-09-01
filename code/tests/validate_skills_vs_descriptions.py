@@ -15,7 +15,7 @@ from src.analysis.skill_extraction.skill_validator import SkillValidator
 def validate_skills_against_descriptions(sample_size: int = 10) -> None:
     """Validate that extracted skills genuinely appear in job descriptions"""
     
-    validator = SkillValidator('src/config/skills_reference_2025.json')
+    validator = SkillValidator('src/config/skills_reference_2026.json')
     conn = sqlite3.connect('data/jobs.db')
     cursor = conn.cursor()
     

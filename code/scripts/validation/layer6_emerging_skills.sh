@@ -10,7 +10,7 @@ set -e
 DB_PATH="${1:-data/jobs.db}"
 SAMPLE_SIZE="${2:-1000}"
 MIN_FREQUENCY="${3:-5}"
-SKILLS_REF="src/config/skills_reference_2025.json"
+SKILLS_REF="src/config/skills_reference_2026.json"
 
 echo "╔══════════════════════════════════════════════════════════════════════╗"
 echo "║           LAYER 6: EMERGING SKILLS DETECTION                         ║"
@@ -198,7 +198,7 @@ console.log('Terms shown (top per category): ' + totalCandidates);
 console.log('');
 console.log('Next steps:');
 console.log('  1. Review candidates for actual new skills');
-console.log('  2. Add valid skills to skills_reference_2025.json');
+console.log('  2. Add valid skills to skills_reference_2026.json');
 console.log('  3. Re-run extraction to include new skills');
 
 // Save candidates to file

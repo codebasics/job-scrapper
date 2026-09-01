@@ -8,7 +8,7 @@
 set -e
 
 DB_PATH="${1:-data/jobs.db}"
-SKILLS_REF="src/config/skills_reference_2025.json"
+SKILLS_REF="src/config/skills_reference_2026.json"
 BATCH_SIZE="${2:-1000}"
 
 echo "╔══════════════════════════════════════════════════════════════════════╗"

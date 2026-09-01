@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Re-extract skills for all jobs using current skills_reference_2025.json
+ * Re-extract skills for all jobs using current skills_reference_2026.json
  * This fixes FP/FN issues caused by outdated skill extractions
  */
 
@@ -9,7 +9,7 @@ const path = require('path');
 const Database = require('better-sqlite3');
 
 // Load skills reference
-const skillsPath = path.join(__dirname, 'src/config/skills_reference_2025.json');
+const skillsPath = path.join(__dirname, 'src/config/skills_reference_2026.json');
 const skillsData = JSON.parse(fs.readFileSync(skillsPath, 'utf8'));
 
 console.log(`Loaded ${skillsData.total_skills} skills with patterns`);

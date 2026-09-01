@@ -34,7 +34,7 @@ class BatchValidationResult(TypedDict):
 class SkillValidator:
     """Validates skill extraction for False Positives and False Negatives"""
 
-    def __init__(self, db_path: str = "data/jobs.db", skills_ref_path: str = "src/config/skills_reference_2025.json"):
+    def __init__(self, db_path: str = "data/jobs.db", skills_ref_path: str = "src/config/skills_reference_2026.json"):
         self.db_path = db_path
         self.skills_ref_path = skills_ref_path
         self._load_skills_reference()

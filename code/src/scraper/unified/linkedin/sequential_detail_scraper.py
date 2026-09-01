@@ -55,8 +55,8 @@ async def scrape_job_details_sequential(
     rate_limiter = AdaptiveLinkedInRateLimiter(
         initial_concurrent=8, base_delay=2.5, jitter_range=1.0
     )
-    skills_validator = SkillValidator("src/config/skills_reference_2025.json")
-    skill_extractor = AdvancedSkillExtractor("src/config/skills_reference_2025.json")
+    skills_validator = SkillValidator("src/config/skills_reference_2026.json")
+    skill_extractor = AdvancedSkillExtractor("src/config/skills_reference_2026.json")
     proxy_url = os.getenv("PROXY_URL")
     proxy_config = None
     if proxy_url:

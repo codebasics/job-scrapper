@@ -7,7 +7,7 @@ from typing import TypedDict
 
 
 # REMOVED: All hardcoded SKILL_SYNONYMS to prevent hallucinations
-# ALL normalization must come from skills_reference_2025.json patterns
+# ALL normalization must come from skills_reference_2026.json patterns
 # This ensures single source of truth and eliminates duplicate/conflicting mappings
 
 
@@ -19,7 +19,7 @@ class SkillDict(TypedDict):
 def normalize_skill(skill: str) -> str:
     """
     Normalize skill name - preserve exact canonical name from extraction
-    All mapping handled by skills_reference_2025.json, no transformation needed
+    All mapping handled by skills_reference_2026.json, no transformation needed
     """
     # Return exact skill name as extracted (already canonical from layer3_direct)
     return skill.strip()

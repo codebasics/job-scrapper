@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Path to skills reference JSON
 SKILLS_JSON_PATH = (
-    Path(__file__).parent.parent.parent.parent / "config" / "skills_reference_2025.json"
+    Path(__file__).parent.parent.parent.parent / "config" / "skills_reference_2026.json"
 )
 
 # Categories to exclude from extraction

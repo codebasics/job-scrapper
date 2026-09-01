@@ -30,8 +30,8 @@ def load_canonical_skills(reference_path: str) -> set[str]:
 def detect_false_positives_negatives() -> None:
     """Comprehensive false positive/negative detection"""
     
-    validator = SkillValidator('src/config/skills_reference_2025.json')
-    canonical_skills = load_canonical_skills('src/config/skills_reference_2025.json')
+    validator = SkillValidator('src/config/skills_reference_2026.json')
+    canonical_skills = load_canonical_skills('src/config/skills_reference_2026.json')
     
     conn = sqlite3.connect('data/jobs.db')
     cursor = conn.cursor()

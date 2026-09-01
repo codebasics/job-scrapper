@@ -475,6 +475,8 @@ def render_detail_scraper_form(db_path: str) -> None:
                 "ML Engineer",
                 "AI Architect",
                 "Data Scientist",
+                # FDE Bootcamp Roles
+                "Forward Deployed Engineer",
             ],
             index=0,
             help="Select the job role to filter URLs",

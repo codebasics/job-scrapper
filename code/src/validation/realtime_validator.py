@@ -10,7 +10,7 @@ from pathlib import Path
 
 def validate_skills_via_node(
     job_description: str,
-    skills_reference_path: str = "src/config/skills_reference_2025.json",
+    skills_reference_path: str = "src/config/skills_reference_2026.json",
 ) -> list[str]:
     """
     Validate and extract skills using Node.js for speed.
@@ -78,7 +78,7 @@ console.log(JSON.stringify([...found].sort()));
 def validate_skills(
     job_description: str,
     extracted_skills: list[str],
-    skills_reference_path: str = "src/config/skills_reference_2025.json",
+    skills_reference_path: str = "src/config/skills_reference_2026.json",
 ) -> list[str]:
     """
     Validate extracted skills - returns ONLY pattern-matched skills.
