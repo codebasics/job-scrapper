@@ -1,5 +1,5 @@
 {
-  "total_skills": 966,
+  "total_skills": 986,
   "skills": [
     {
       "name": ".NET",
@@ -7372,7 +7372,8 @@
       "patterns": [
         "\\brequirements gathering\\b",
         "\\bgathering business requirements\\b",
-        "\\btranslat(?:e|ing) (?:business )?requirements? into\\b"
+        "\\btranslat(?:e|ing) (?:business )?requirements? into\\b",
+        "\\bbusiness requirements\\b"
       ]
     },
     {
@@ -7382,6 +7383,86 @@
         "\\bfull[\\-\\s]stack development\\b",
         "\\bfull[\\-\\s]stack engineer(?:ing)?\\b"
       ]
+    },
+    {
+      "name": "SaaS",
+      "patterns": ["\\bSaaS\\b", "\\bsoftware[\\-\\s]as[\\-\\s]a[\\-\\s]service\\b"]
+    },
+    {
+      "name": "ROI & Value Realization",
+      "patterns": ["\\bROI\\b", "\\breturn on investment\\b", "\\bvalue realization\\b"]
+    },
+    {
+      "name": "Executive Stakeholder Engagement",
+      "patterns": ["\\bC[\\-\\s]suite\\b", "\\bexecutive stakeholders?\\b", "\\bexecutive sponsors?\\b"]
+    },
+    {
+      "name": "Infrastructure as Code",
+      "patterns": ["\\binfrastructure as code\\b", "\\bIaC\\b"]
+    },
+    {
+      "name": "Multi-Cloud Architecture",
+      "patterns": ["\\bmulti[\\-\\s]cloud\\b", "\\bhybrid cloud\\b"]
+    },
+    {
+      "name": "On-Premise Deployment",
+      "patterns": ["\\bon[\\-\\s]premises?\\b", "\\bon[\\-\\s]prem\\b"]
+    },
+    {
+      "name": "Webhooks",
+      "patterns": ["\\bwebhooks?\\b"]
+    },
+    {
+      "name": "Developer Relations",
+      "patterns": ["\\bdeveloper relations\\b", "\\bdev(?:\\s|-)?rel\\b", "\\bdeveloper advocacy\\b"]
+    },
+    {
+      "name": "Solution Scoping",
+      "patterns": ["\\bscoping\\b", "\\bsolutioning\\b", "\\bscope (?:a |the )?solutions?\\b"]
+    },
+    {
+      "name": "Data Privacy & Compliance",
+      "patterns": ["\\bdata privacy\\b", "\\bregulatory compliance\\b", "\\bcompliance requirements\\b"]
+    },
+    {
+      "name": "Observability",
+      "patterns": ["\\bobservability\\b", "\\bmonitoring and alerting\\b"]
+    },
+    {
+      "name": "Technical Feasibility Analysis",
+      "patterns": ["\\btechnical feasibility\\b", "\\bfeasibility analysis\\b"]
+    },
+    {
+      "name": "Go-Live Support",
+      "patterns": ["\\bgo[\\-\\s]live\\b", "\\bgo[\\-\\s]to[\\-\\s]production\\b"]
+    },
+    {
+      "name": "Account Management",
+      "patterns": ["\\baccount management\\b", "\\bmanaging (?:key |strategic )?accounts?\\b"]
+    },
+    {
+      "name": "Autonomy & Self-Direction",
+      "patterns": ["\\bautonomy\\b", "\\bself[\\-\\s]direct(?:ed|ion)?\\b", "\\bself[\\-\\s]starter\\b"]
+    },
+    {
+      "name": "Knowledge Transfer",
+      "patterns": ["\\bknowledge transfer\\b", "\\bknowledge sharing\\b"]
+    },
+    {
+      "name": "Technical Debt Management",
+      "patterns": ["\\btechnical debt\\b", "\\btech debt\\b"]
+    },
+    {
+      "name": "Code Quality",
+      "patterns": ["\\bcode quality\\b", "\\bcode review(?:s)?\\b"]
+    },
+    {
+      "name": "Third-Party API Integration",
+      "patterns": ["\\bthird[\\-\\s]party (?:apis?|integrations?)\\b"]
+    },
+    {
+      "name": "Travel Readiness",
+      "patterns": ["\\bwillingness to travel\\b", "\\btravel required\\b", "\\bable to travel\\b"]
     }
   ]
 }
