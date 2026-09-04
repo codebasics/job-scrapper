@@ -1,76 +1,74 @@
 Skill,Count,Percentage
 Python,303,61.7%
 Customer-Facing Engineering,257,52.3%
-Communication,228,46.4%
+Communication,227,46.2%
 AI Agents,144,29.3%
-Sales,134,27.3%
 TypeScript,126,25.7%
 RAG,126,25.7%
 Collaboration,123,25.1%
-Consulting,118,24.0%
 Problem Solving,117,23.8%
-Innovation,116,23.6%
-Agentic AI,112,22.8%
-Full-Stack Development,102,20.8%
+Agentic AI,111,22.6%
+Innovation,110,22.4%
 Data Pipelines,101,20.6%
+Full-Stack Development,99,20.2%
+Consulting,99,20.2%
 Azure,98,20.0%
 API,96,19.6%
-Leadership,95,19.3%
 Observability,94,19.1%
 Troubleshooting,89,18.1%
-Customer Success,88,17.9%
-Comfort with Ambiguity,88,17.9%
+Comfort with Ambiguity,87,17.7%
 Debugging,86,17.5%
-Documentation,85,17.3%
-SQL,79,16.1%
+Documentation,84,17.1%
+Sales,83,16.9%
 Cross-Functional Collaboration,78,15.9%
+SQL,78,15.9%
 React,77,15.7%
-JavaScript,71,14.5%
+Leadership,77,15.7%
 Kubernetes,71,14.5%
+JavaScript,70,14.3%
 Claude,70,14.3%
 Autonomy & Self-Direction,70,14.3%
 Solution Scoping,69,14.1%
+Customer Success,67,13.6%
 CI/CD,66,13.4%
 Prompt Engineering,62,12.6%
-Proof of Concept Development,61,12.4%
-Organization,60,12.2%
+Proof of Concept Development,60,12.2%
 Influence,59,12.0%
 Docker,56,11.4%
 Cloud Platforms,56,11.4%
-SaaS,55,11.2%
 Metrics,54,11.0%
+SaaS,53,10.8%
 Java,52,10.6%
 Generative AI,50,10.2%
 LangChain,50,10.2%
-Data Engineering,49,10.0%
 Creativity,45,9.2%
 Openai,45,9.2%
 Cursor,45,9.2%
-Prototyping,44,9.0%
 Webhooks,44,9.0%
 Solution Architecture,43,8.8%
+Prototyping,43,8.8%
 Workflow Automation,43,8.8%
-Professional Services Delivery,42,8.6%
+Data Engineering,42,8.6%
 Vector Databases,41,8.4%
 Travel Readiness,40,8.1%
 Dashboards,39,7.9%
-Use Case,39,7.9%
 LangGraph,39,7.9%
 DevOps,38,7.7%
 Networking,38,7.7%
 Databricks,37,7.5%
 ROI & Value Realization,36,7.3%
+Professional Services Delivery,34,6.9%
 Go-Live Support,34,6.9%
 On-Premise Deployment,33,6.7%
 Systems Integration,32,6.5%
 Reporting,31,6.3%
 Business Requirements Gathering,30,6.1%
 Decision Making,30,6.1%
-Empathy,30,6.1%
 ERP,30,6.1%
 PyTorch,29,5.9%
 Anthropic,29,5.9%
 Node.Js,29,5.9%
+Empathy,29,5.9%
 Excel,29,5.9%
 Snowflake,28,5.7%
 Flexibility,27,5.5%
@@ -100,7 +98,6 @@ LESS,22,4.5%
 Linux,22,4.5%
 CrewAI,21,4.3%
 Proactive,21,4.3%
-Platform Engineering,21,4.3%
 Microservices,21,4.3%
 Data Modeling,20,4.1%
 Vertex AI,20,4.1%
@@ -109,21 +106,19 @@ ETL,19,3.9%
 On-Site Deployment,19,3.9%
 Tool Calling,18,3.7%
 Slack,18,3.7%
-Project Management,18,3.7%
 GraphQL,17,3.5%
 Terraform,17,3.5%
 Copilot,17,3.5%
 Model Context Protocol,17,3.5%
-LinkedIn,17,3.5%
 Resilience,17,3.5%
 Knowledge Transfer,16,3.3%
 BigQuery,16,3.3%
+Platform Engineering,16,3.3%
 Infrastructure as Code,16,3.3%
 ServiceNow,15,3.1%
-Product Management,15,3.1%
 PostgreSQL,15,3.1%
 Rust,15,3.1%
-Marketing,14,2.9%
+Project Management,15,3.1%
 Robotics,14,2.9%
 Serverless,13,2.6%
 Stakeholder Management,13,2.6%
@@ -134,21 +129,20 @@ Interpersonal Skills,13,2.6%
 DevSecOps,12,2.4%
 AutoGen,12,2.4%
 Forecasting,12,2.4%
-GPU,12,2.4%
 KPI,12,2.4%
 TensorFlow,12,2.4%
 Cohere,12,2.4%
 Next.Js,11,2.2%
+Marketing,11,2.2%
 Deep Learning,11,2.2%
 Data Ingestion,11,2.2%
 JIRA,11,2.2%
 Flask,11,2.2%
 Attention to Detail,11,2.2%
-Customer Service,10,2.0%
 Data Quality,10,2.0%
 NoSQL,10,2.0%
-Regression,10,2.0%
 Github Copilot,10,2.0%
+GPU,10,2.0%
 Model Training,10,2.0%
 Mistral AI,9,1.8%
 Incident Response,9,1.8%
@@ -186,33 +180,32 @@ Diversity and Inclusion,7,1.4%
 Unity,7,1.4%
 Requirements Gathering,7,1.4%
 n8n,7,1.4%
-Sketch,7,1.4%
 Pydantic,7,1.4%
+Customer Service,7,1.4%
 LLMOps,7,1.4%
 Notion,7,1.4%
 Prioritization,7,1.4%
 NetSuite,6,1.2%
-Account Management,6,1.2%
-Scala,6,1.2%
 Apache Spark,6,1.2%
+Scala,6,1.2%
 Dbt,6,1.2%
 Vercel,6,1.2%
 Delegation,6,1.2%
 IDE,6,1.2%
 GPT,6,1.2%
-MySQL,6,1.2%
 HTTP,6,1.2%
+MySQL,6,1.2%
+Organization,6,1.2%
 Data Governance,5,1.0%
 Cloud Computing,5,1.0%
 Mlflow,5,1.0%
-Pinecone,5,1.0%
 Grpc,5,1.0%
+Pinecone,5,1.0%
 Teamwork,5,1.0%
 Big Data,5,1.0%
 Ray,5,1.0%
 Prometheus,5,1.0%
 Pyspark,5,1.0%
-Technical Debt Management,5,1.0%
 Change Management,5,1.0%
 Statistics,5,1.0%
 OpenShift,5,1.0%
@@ -230,18 +223,19 @@ Delta Lake,4,0.8%
 Grafana,4,0.8%
 OpenTelemetry,4,0.8%
 Confluence,4,0.8%
-Patience,4,0.8%
 Pandas,4,0.8%
+Patience,4,0.8%
 Ruby,4,0.8%
 Shopify,4,0.8%
 Scrum,4,0.8%
+Technical Debt Management,4,0.8%
 Flux,4,0.8%
-TCP,4,0.8%
-Model Inference,4,0.8%
 HTTP/HTTPS,4,0.8%
+Model Inference,4,0.8%
+TCP,4,0.8%
 Hipaa,4,0.8%
 Business Acumen,4,0.8%
-Black,4,0.8%
+Product Management,4,0.8%
 Time Series,4,0.8%
 Aws Bedrock,4,0.8%
 Miro,4,0.8%
@@ -252,18 +246,18 @@ CMS,3,0.6%
 Semantic Search,3,0.6%
 Model Monitoring,3,0.6%
 SIEM,3,0.6%
-Chatbot,3,0.6%
 Classification,3,0.6%
 Message Queues,3,0.6%
 Cloud Security,3,0.6%
-Vault,3,0.6%
 SOC 2,3,0.6%
+Vault,3,0.6%
 Continuous Feedback,3,0.6%
 Splunk,3,0.6%
 Stress Management,3,0.6%
 Microsoft Dynamics,3,0.6%
 Model Optimization,3,0.6%
 Weaviate,3,0.6%
+Black,3,0.6%
 AWS Athena,3,0.6%
 Figma,3,0.6%
 Feature Engineering,3,0.6%
@@ -274,6 +268,7 @@ Embedded Systems,3,0.6%
 Swift,3,0.6%
 Kubeflow,2,0.4%
 Data Lake,2,0.4%
+Chatbot,2,0.4%
 Customer Analytics,2,0.4%
 Llama,2,0.4%
 Swagger,2,0.4%
@@ -290,15 +285,16 @@ Power Automate,2,0.4%
 Transformers,2,0.4%
 Haystack,2,0.4%
 Airtable,2,0.4%
-Statistical Modeling,2,0.4%
 Clustering,2,0.4%
+Statistical Modeling,2,0.4%
 Data Preprocessing,2,0.4%
 Dspy,2,0.4%
 Google Vertex Ai,2,0.4%
 BPMN,2,0.4%
 UI/UX,2,0.4%
-Visio,2,0.4%
+Account Management,2,0.4%
 Lucidchart,2,0.4%
+Visio,2,0.4%
 Azure DevOps,2,0.4%
 Reinforcement Learning,2,0.4%
 Github Actions,2,0.4%
@@ -308,32 +304,31 @@ Blockchain,2,0.4%
 Storytelling,2,0.4%
 C,2,0.4%
 Causal Inference,1,0.2%
-Fresh,1,0.2%
-Model Registry,1,0.2%
 Data Lakehouse,1,0.2%
+Model Registry,1,0.2%
 LangSmith,1,0.2%
 SEO,1,0.2%
 Milvus,1,0.2%
-Junit,1,0.2%
-Hibernate,1,0.2%
-Spring Boot,1,0.2%
 Cucumber,1,0.2%
+Hibernate,1,0.2%
 Jpa,1,0.2%
-Tensorrt,1,0.2%
-Growth Mindset,1,0.2%
+Junit,1,0.2%
+Spring Boot,1,0.2%
 DigitalOcean,1,0.2%
+Growth Mindset,1,0.2%
 Quantization,1,0.2%
+Tensorrt,1,0.2%
 Critical Thinking,1,0.2%
 Argo CD,1,0.2%
 Groq,1,0.2%
 Neural Networks,1,0.2%
-Google Cloud Professional,1,0.2%
-Encryption,1,0.2%
-Apache Iceberg,1,0.2%
 AWS S3,1,0.2%
+Apache Iceberg,1,0.2%
+Encryption,1,0.2%
+Google Cloud Professional,1,0.2%
 JVM,1,0.2%
-Predictive Analytics,1,0.2%
 Model Versioning,1,0.2%
+Predictive Analytics,1,0.2%
 Context Window,1,0.2%
 Multimodal AI,1,0.2%
 Soap,1,0.2%
@@ -350,26 +345,26 @@ React Native,1,0.2%
 Market Research,1,0.2%
 Idempotency,1,0.2%
 AWS Glue,1,0.2%
-Executive Presence,1,0.2%
 Dagster,1,0.2%
+Executive Presence,1,0.2%
 Hadoop,1,0.2%
 ClickHouse,1,0.2%
-Product Lifecycle Management,1,0.2%
 Colab,1,0.2%
+Product Lifecycle Management,1,0.2%
 AWS VPC,1,0.2%
 Apache Airflow,1,0.2%
 Schema Evolution,1,0.2%
-OCR,1,0.2%
+GCP Cloud Run,1,0.2%
 Hono,1,0.2%
 Neon,1,0.2%
-GCP Cloud Run,1,0.2%
+OCR,1,0.2%
 Gradio,1,0.2%
 Streamlit,1,0.2%
 Facilitation,1,0.2%
 Natural Language Processing,1,0.2%
 Data Wrangling,1,0.2%
-Prisma,1,0.2%
 Nestjs,1,0.2%
+Prisma,1,0.2%
 Stable Diffusion,1,0.2%
 LLM Agents,1,0.2%
 Vector Database,1,0.2%
